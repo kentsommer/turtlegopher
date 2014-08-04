@@ -10,7 +10,7 @@
 : ${GOPHERTURTLE_BASE:=kobuki}                           # create, roomba
 : ${GOPHERTURTLE_BATTERY:=/sys/class/power_supply/BAT0}  # /proc/acpi/battery/BAT0 in 2.6 or earlier kernels,  /sys/class/power_supply/ (kernels 3.0+) 
 : ${GOPHERTURTLE_STACKS:=hexagons}                       # circles, hexagons
-: ${GOPHERTURTLE_3D_SENSOR:=kinect}                      # kinect, asus_xtion_pro
+: ${GOPHERTURTLE_3D_SENSOR:=dslam_boards}                      # kinect, asus_xtion_pro
 : ${GOPHERTURTLE_SIMULATION:=false}
 : ${GOPHERTURTLE_SERIAL_PORT:=/dev/kobuki}               # /dev/ttyUSB0, /dev/ttyS0
 
