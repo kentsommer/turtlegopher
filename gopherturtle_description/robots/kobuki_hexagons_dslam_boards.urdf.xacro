@@ -9,6 +9,8 @@
   <xacro:include filename="$(find gopherturtle_description)/urdf/turtlebot_library.urdf.xacro" />
   
   <kobuki/>
-  <stack_hexagons parent="base_link"/>
-  <dslam_boards  parent="base_link"/>
+  <stack_hexagons          parent="base_link"/>
+  <front_dslam_board       parent="base_link"/>
+  <back_dslam_board        parent="base_link"/>
+  <sensor_asus_xtion_pro   parent="base_link"/>
 </robot>

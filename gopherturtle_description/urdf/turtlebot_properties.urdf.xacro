@@ -32,18 +32,18 @@
 
 	<!-- Front DSLAM cam -->
 	<property name="fcam_px" value="0.0806" />
-        <property name="fcam_py" value="0" />
-        <property name="fcam_pz" value="0.955" />
-        <property name="fcam_or" value="0" />
-        <property name="fcam_op" value="0" />
-        <property name="fcam_oy" value="0" />
+  <property name="fcam_py" value="0" />
+  <property name="fcam_pz" value="0.955" />
+  <property name="fcam_or" value="0" />
+  <property name="fcam_op" value="0" />
+  <property name="fcam_oy" value="0" />
 
 	<!-- Back DSLAM cam -->
 	<property name="bcam_px" value="-0.0806" />
-        <property name="bcam_py" value="0" />
-        <property name="bcam_pz" value="0.955" />
-        <property name="bcam_or" value="0" />
-        <property name="bcam_op" value="0" />
-        <property name="bcam_oy" value="0" />
+  <property name="bcam_py" value="0" />
+  <property name="bcam_pz" value="0.955" />
+  <property name="bcam_or" value="0" />
+  <property name="bcam_op" value="0" />
+  <property name="bcam_oy" value="3.14159265" />
 	
 </robot>
