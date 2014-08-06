@@ -76,7 +76,7 @@
     <!--Parameterised in part by the values in turtlebot_properties.urdf.xacro-->
     <xacro:macro name="back_dslam_board" params="parent">
         <joint name="backboard_joint" type="fixed">
-            <origin xyz="${bcam_px} ${bcam_py} ${bcam_pz}" rpy="${bcam_or} ${bcam_op} ${bcam_oy}"/>
+            <origin xyz="${bcam_px} ${bcam_py} ${bcam_pz}" rpy="${bcam_or} ${bcam_op} 3.14159265"/>
             <parent link="${parent}"/>
             <child link="back_dslam_board_frame" />]
         </joint>
