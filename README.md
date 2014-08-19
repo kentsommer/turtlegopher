@@ -11,7 +11,7 @@ Make sure you clean reboot the computer before starting to avoid any erros.
 2. Run: `roslaunch openni2_launch openni2.launch --screen`
 3. start up the pointcloud obstacle algorithm: `./obstacle_detection input:=/camera/depth/points`
 4. Run: `roslaunch turtlebot_bringup minimal.launch --screen`
-5. 5. Start D-SLAM-Bag with required parameters 
+5. Start D-SLAM-Bag with required parameters 
 
 # USB 2.0 Insturctions - Stable: 
 
